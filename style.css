@@ -26,12 +26,13 @@ body {
   min-height: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* grid-template-rows: repeat(auto-fit, minmax(300px)); */
   grid-gap: var(--margin);
   padding: var(--margin);
 }
 
 .container__cell:not(.container__cell--active) {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .container__cell video {
